@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR:400,900');
+
+body, html {
+
+	height: calc(100% - 2em);
+	margin: 0;
+	font-family: 'Montserrat';
+
+}
+
+body {
+
+	background-color: #fff;
+
+}
+
+aside {
+
+	color: #fff;
+	display: grid;
+	grid-template-columns: auto 40px;
+	padding: 2em;
+
+}
+
+#hamburger {
+
+	width: 40px;
+	cursor: pointer;
+
+}
+
+figure {
+
+	margin: 0;
+
+}
+
+figcaption {
+
+	font-family: 'Noto Serif KR';
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #000;
+
+}
+
+.active {
+
+	position: absolute;
+	display: block;
+	background: #fff;
+	width: 50%;
+	left: 0;
+	bottom: 0;
+	height: 100%;
+
+}
+
+ul {
+
+	display: none;
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;l
+
+}
+
+ul li a {
+
+	text-decoration: none;
+	text-transform: uppercase;
+	/*font-size: 1em;*/
+	text-align: right;
+	display: block;
+	padding: 1.5em 1.5em;
+	background-color: rgba(255, 255, 255, .35);
+	color: #000;
+
+}
+
+main {
+
+	background: #ff7843;
+	padding: 1em 1.4em;
+
+}
+
+h1 {
+
+	margin: 0;
+	color: #fff;
+
+	font-family: 'Noto Serif KR';
+	font-style: oblique;
+
+}
+
+p {
+
+	font-size: 1.1em;
+	line-height: 1.5em;
+
+}
+
+@media only screen and (min-width: 768px) {
+
+	body {
+
+		display: grid;
+		grid-template-columns: 20% auto;
+		padding: 2em;
+
+	}
+
+	#hamburger {
+
+		display: none;
+
+	}
+
+	aside {
+
+		position: relative;
+
+		background: #DCE1F6;
+		grid-template-columns: auto;
+		grid-template-rows: 20% auto;
+		padding: 0;
+
+	}
+
+	main {
+
+		position: relative;
+
+		padding: 4em;
+		background: #ff7843 url('../assets/images/bg.svg') no-repeat bottom left;
+		background-size: 65%;
+
+	}
+
+	#avatar {
+
+		border-radius: 50%;
+		background: #fff;
+		width: 100px;
+		height: 100px;
+		margin: 5em auto 1em auto;
+
+		background: url('../assets/images/me.png') no-repeat;
+		background-size: cover;
+
+	}
+
+	figcaption {
+
+		text-align: center;
+		color: #484848;
+
+	}
+
+	ul {
+
+		display: block;
+
+		text-align: right;
+
+		position: absolute;
+		bottom: 0;
+		background: #f8faff !important;
+		height: 55%;
+		width: 100% !important;
+
+	}
+
+	ul li a:hover {
+
+		background-color: #fff;
+
+	}
+
+	nav {
+
+		background: none;
+
+	}
+
+	h1 {
+
+		position: absolute;
+		right: 0;
+		top: 0;
+		font-size: 3em;
+		text-align: right;
+		margin: 2em;
+
+	}
+
+	p {
+
+		font-size: 1.5em;
+
+	}
+
+}

@@ -1,0 +1,11 @@
+{
+  "name": "personal-website",
+  "version": "0.1.0",
+  "description": "Prototype of personal website",
+  "main": "app.js",
+  "author": "jooshhg",
+  "license": "ISC",
+  "dependencies": {
+    "express": "*"
+  }
+}
