@@ -3,4 +3,5 @@ personal website prototype
 
 ### todo
 
-- olje
+- portfolio page
+- contact me page
